@@ -1,0 +1,5 @@
+# MNIST-clothes-classification-using-tensorflow-CNNs
+
+In this lesson we trained a neural network to classify images of articles of clothing. To do this we used the Fashion MNIST dataset, which contains 70,000 greyscale images of articles of clothing. We used 60,000 of them to train our network and 10,000 of them to test its performance. In order to feed these images into our neural network we had to flatten the 28 × 28 images into 1d vectors with 784 elements. Our network consisted of a fully connected layer with 128 units (neurons) and an output layer with 10 units, corresponding to the 10 output labels. These 10 outputs represent probabilities for each class. The softmax activation function calculated the probability distribution.
+
+I have created models with using simple Dense layers and using CNNs with convolution and pooling layers, where CNNs seems to perform much better than the normal Dense layer model. This repo contains two files, both of them are almost same except in 2nd I have just added some definitions for some deep learning concepts along with the change in model creation code.
